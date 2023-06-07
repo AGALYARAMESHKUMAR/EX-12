@@ -8,7 +8,7 @@
 To study the link state routing protocol in NS Simulator.
 # Link State routing
 Routing is the process of selecting best paths in a network. In the past, the term routing was also used
-to mean forwarding network traffic among networks. However this latter function is much better
+to mean forwarding network traffic among networks. However this latter function is much better#
 described as simply forwarding. Routing is performed for many kinds of networks, including the
 telephone network (circuit switching), electronic data networks (such as the Internet), and
 transportation networks. This article is concerned primarily with routing in electronic data networks
@@ -65,7 +65,7 @@ right direction.
 2. Since flooding naturally utilizes every path through the network, it will also use the shortest
 path.
 3. This algorithm is very simple to implement.
-Disadvantages
+# Disadvantages
 1. Flooding can be costly in terms of wasted bandwidth. While a message may only have one
 destination it has to be sent to every host. In the case of a ping flood or a denial of service attack, it
 can be harmful to the reliability of a computer network.
@@ -113,7 +113,7 @@ features which can be used to help with instability and inaccurate routing infor
 EGP and BGP are not pure distance-vector routing protocols because a distance-vector protocol
 calculates routes based only on link costs whereas in BGP, for example, the local route preference
 value takes priority over the link cost.
-Count-to-infinity problem
+# Count-to-infinity problem
 The Bellman–Ford algorithm does not prevent routing loops from happening and suffers from the
 count-to-infinity problem. The core of the count-to-infinity problem is that if A tells B that it has a
 path somewhere, there is no way for B to know if the path has B as a part of it. To see the problem
